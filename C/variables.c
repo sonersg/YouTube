@@ -1,8 +1,7 @@
 
 // VARIABLES:
-// Allocate space in memory to store a value.
-// decleration and initialization
-// const
+// Used to save some values in the memory
+// so we can access them later easily.
 
 // data types   values
 // int        : 2
@@ -16,24 +15,30 @@
 
 int main()
 {
-    // int age; // decleration
-
-    // age = 22; // initialization
-
     int age = 22;
-    float decimal = 2.2;
-    char charactr = 'b';
+    float gpa = 3.99999;
+    char letter = 'a';
     char name[] = "soner";
     bool isStudent = false;
 
+    // decleration
+    int number;
+    // initialization
+    number = 12;
+
     const float PI = 3.14;
 
-    printf("%d\n", age);
-    printf("%.2f\n", decimal);
-    printf("%c\n", charactr);
-    printf("Your name is not %s\n", name);
-    printf("%d\n", isStudent);
-    printf("PI: %.2f\n", PI);
+    // printf("\n\n%d\n\n", age);
+    // printf("\n\n%.1f\n\n", gpa);
+    // printf("\n\n%c\n\n", letter);
+    // printf("\n\n%s\n\n", name);
+    // printf("\n\n%d\n\n", isStudent);
+
+    // printf("\n\n%d\n\n", number);
+    printf("\n\n%.2f\n\n", PI);
 
     return 0;
 }
+
+// decleration and initialization
+// const keyword
