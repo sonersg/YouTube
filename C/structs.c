@@ -6,25 +6,22 @@
 // but without methods
 
 #include <stdio.h>
-#include <string.h>
 
 struct User
 {
     int id;
-    char name[22];
+    char name[44];
+    int age;
 };
 
 int main()
 {
-    struct User u1;
-    struct User u2;
+    struct User u1 = {1, "soesks", 66};
+    struct User u2 = {2, "smldsaloesks", 67};
 
-    u1.id = 1;
-    strcpy(u1.name, "sksmdla");
-
-    u2.id = 2;
-    // strcpy(u2.name, "soenr");
+    u1.age = 77;
+    // u1.name = "kdsalkds";
 
     printf("%s\n", u1.name);
-    printf("%d\n", u1.id);
+    printf("%i\n", u2.age);
 }
