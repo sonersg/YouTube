@@ -1,26 +1,21 @@
 
 // AUGMENTED ASSIGNMENT OPERATORS:
-// help us to reassign values in a short and fast way.
+// help us to reassign values in a short way.
 
 #include <stdio.h>
 
 int main()
 {
-    int age = 22;
+    int number = 10;
 
-    // age = age + 2;
-    // age += 2;
+    // number = number + 2;
+    number += 2;
 
-    // age = age - 2;
-    // age -= 2;
+    number -= 4;
 
-    // age = age * 2;
-    // age *= 2;
+    number *= 3;
 
-    // age = age / 2;
-    age /= 2;
+    number /= 12;
 
-    printf("%d \n", age);
-
-    return 0;
+    printf("\n\n%i\n\n", number);
 }

@@ -1,5 +1,30 @@
 
 
+// - ASSIGNMENT OPERATOR (=)
+// - EQUALITY OPERATOR (==)
+
+#include <stdio.h>
+
+int main()
+{
+    // assignment operator
+    int age = 77;
+
+    // equlity operator
+    printf("%i", age == 71);
+}
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // ASSIGNMENT OPERATOR (=):
 // Purpose:
 // Used to assign a value to a variable.
@@ -18,21 +43,6 @@
 // if they are equal, or false (0) if they are not.
 // Example:
 // x == 5 checks if x is equal to 5.
-
-#include <stdio.h>
-
-int main()
-{
-    // assignment
-    int x = 5;
-    printf("%d \n", x);
-
-    // equality operator
-    printf("%d \n", x == 789);
-    // printf("value of x: %d \n", x);
-
-    return 0;
-}
 
 // Key Differences:
 // Assignment (=) is about storing a value in a variable.
