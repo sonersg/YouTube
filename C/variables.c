@@ -6,39 +6,33 @@
 // data types   values
 // int        : 2
 // float      : 2.2
+// double      : 2.2
 // char       : 'A'
 // string     : "soner"
-// boolean    : true 1, false 0
 
 #include <stdio.h>
-#include <stdbool.h>
 
 int main()
 {
-    int age = 22;
-    float gpa = 3.99999;
-    char letter = 'a';
-    char name[] = "soner";
-    bool isStudent = false;
-
     // decleration
-    int number;
+    int age;
+
     // initialization
-    number = 12;
+    age = 66;
 
-    const float PI = 3.14;
+    float gpa = 3.3;
+    double priceForATea = 2.5;
+    char letter = 'a';
+    char letters[] = "smsksajl";
 
-    // printf("\n\n%d\n\n", age);
-    // printf("\n\n%.1f\n\n", gpa);
-    // printf("\n\n%c\n\n", letter);
-    // printf("\n\n%s\n\n", name);
-    // printf("\n\n%d\n\n", isStudent);
+    printf("%i\n", age);
+    printf("%f\n", gpa);
+    printf("%lf\n", priceForATea);
+    printf("%c\n", letter);
+    printf("%s\n", letters);
 
-    // printf("\n\n%d\n\n", number);
-    printf("\n\n%.2f\n\n", PI);
-
-    return 0;
+    printf("\n\n%i", sizeof(float));
+    printf("\n%i", sizeof(double));
 }
 
 // decleration and initialization
-// const keyword
