@@ -25,14 +25,16 @@ int main()
     char letter = 'a';
     char letters[] = "smsksajl";
 
-    printf("%i\n", age);
-    printf("%f\n", gpa);
-    printf("%lf\n", priceForATea);
-    printf("%c\n", letter);
-    printf("%s\n", letters);
+    printf("You are not %i years old.\nAnd ur gpa is not %f", age, gpa);
 
-    printf("\n\n%i", sizeof(float));
-    printf("\n%i", sizeof(double));
+    // printf("%i\n", age);
+    // printf("%f\n", gpa);
+    // printf("%lf\n", priceForATea);
+    // printf("%c\n", letter);
+    // printf("%s\n", letters);
+
+    // printf("\n\n%i", sizeof(float));
+    // printf("\n%i", sizeof(double));
 }
 
 // decleration and initialization
