@@ -18,23 +18,21 @@ int main()
     int age;
 
     // initialization
-    age = 66;
+    age = 44;
+    age = 55;
 
     float gpa = 3.3;
-    double priceForATea = 2.5;
+    double large_number = 30000000000;
     char letter = 'a';
-    char letters[] = "smsksajl";
+    char letters[] = "kdsnfs kdnsnn";
 
-    printf("You are not %i years old.\nAnd ur gpa is not %f", age, gpa);
+    // printf("\n%d", sizeof(double));
 
-    // printf("%i\n", age);
-    // printf("%f\n", gpa);
-    // printf("%lf\n", priceForATea);
-    // printf("%c\n", letter);
-    // printf("%s\n", letters);
-
-    // printf("\n\n%i", sizeof(float));
-    // printf("\n%i", sizeof(double));
+    // printf("\nyou are not %i yo!", age);
+    // printf("\n%.1f", gpa);
+    // printf("\n%f", large_number);
+    // printf("\n%c", letter);
+    printf("\n%s", letters);
 }
 
 // decleration and initialization
