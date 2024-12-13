@@ -1,12 +1,13 @@
 
+
 // VARIABLES:
 // Used to save some values in the memory
 // so we can access them later easily.
 
 // data types   values
 // int        : 2
-// float      : 2.2
-// double      : 2.2
+// float      : 2.2     -> 4 bytes
+// double      : 2.2    -> 8 bytes
 // char       : 'A'
 // string     : "soner"
 
@@ -18,21 +19,22 @@ int main()
     int age;
 
     // initialization
-    age = 44;
-    age = 55;
+    age = 66;
+
+    age = 77;
 
     float gpa = 3.3;
-    double large_number = 30000000000;
+    double large_number = 30000000000.0;
     char letter = 'a';
-    char letters[] = "kdsnfs kdnsnn";
+    char letters[] = "soner";
 
-    // printf("\n%d", sizeof(double));
+    printf("you are not %i years old!", age);
+    // printf("%.1f", gpa);
+    // printf("%lf", large_number);
+    // printf("%c", letter);
+    // printf("%s", letters);
 
-    // printf("\nyou are not %i yo!", age);
-    // printf("\n%.1f", gpa);
-    // printf("\n%f", large_number);
-    // printf("\n%c", letter);
-    printf("\n%s", letters);
+    // printf("%i", sizeof(float));
 }
 
 // decleration and initialization
