@@ -5,15 +5,13 @@
 
 int main()
 {
-    float a = sqrt(25);
-    float b = pow(2, 2);
-    int c = round(2.45);
-    int d = ceil(2.11);
-    int e = floor(2.95);
-    float f = log(3);
-    float g = tan(45);
-    float h = sin(90);
 
-    printf("\n%f\n", h);
-    // printf("\n%i\n", f);
+    // printf("%f\n", cos(0));
+    // printf("%f\n", exp2(8));
+    // printf("%f\n", pow(5, 2));
+    // printf("%f\n", sqrt(100));
+
+    // printf("%f\n", floor(2.9));
+    // printf("%f\n", ceil(2.1));
+    printf("%f\n", round(2.4));
 }
